@@ -90,6 +90,34 @@ Clustering performance is evaluated after each epoch using KMeans. The code repo
 
 The final summary reports the epoch with the highest arithmetic mean of these four metrics, together with the best epoch for each individual metric.
 
+## Cite us
+
+If you find this code or our temporal graph clustering benchmark useful in your research, please cite the following papers:
+
+1. **Deep Temporal Graph Clustering.** ICLR 2024. [[Paper](https://openreview.net/forum?id=ViNe1fjGME)] [[Code](https://github.com/MGitHubL/Deep-Temporal-Graph-Clustering)]
+2. **Deep Temporal Graph Clustering: A Comprehensive Benchmark and Datasets.** IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2025. [[Paper](https://doi.org/10.1109/TPAMI.2025.3596609)] [[Code](https://github.com/MGitHubL/BenchTGC)]
+
+```bibtex
+@inproceedings{TGC_ML_ICLR,
+  author    = {Liu, Meng and Liu, Yue and Liang, Ke and Tu, Wenxuan and Wang, Siwei and Zhou, Sihang and Liu, Xinwang},
+  title     = {Deep Temporal Graph Clustering},
+  booktitle = {The Twelfth International Conference on Learning Representations},
+  year      = {2024},
+  url       = {https://openreview.net/forum?id=ViNe1fjGME}
+}
+
+@article{BenchTGC_ML_TPAMI,
+  author  = {Liu, Meng and Liang, Ke and Wang, Siwei and Hu, Xingchen and Zhou, Sihang and Liu, Xinwang},
+  title   = {Deep Temporal Graph Clustering: A Comprehensive Benchmark and Datasets},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year    = {2025},
+  volume  = {47},
+  number  = {12},
+  pages   = {11561--11578},
+  doi     = {10.1109/TPAMI.2025.3596609}
+}
+```
+
 ## License
 
 See [LICENSE](LICENSE).
